@@ -1,1 +1,4 @@
-![image](https://github.com/user-attachments/assets/584bcaa7-1a9d-49d9-9188-5066c78f1020)
+<div align="center">
+  <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256">
+</div>
+
