@@ -13,18 +13,15 @@ public class Exercicio28 {
         int[] vect = new int[n];
 
         for (int i = 0; i < n; i++){
-            if(n<10){
-                System.out.print("Digite um número: ");
-                vect[i] = sc.nextInt();
-            }
+            System.out.print("Digite um número: ");
+            vect[i] = sc.nextInt();
         }
         
         System.out.println("NÚMEROS NEGATIVOS: ");
 
         for(int i = 0; i < n; i++){
             if(vect[i]<0){
-                System.out.printf("%d\n", vect[i]);
-                // %d significa que um valor inteiro é esperado nessa posição na string;
+                System.out.println(vect[i]);
             }
         }
 
