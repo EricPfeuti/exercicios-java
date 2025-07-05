@@ -23,7 +23,7 @@ public class Exercicio32 {
 
         // Loop dos Dados das pessoas;
         for (int i = 0; i < n; i++){
-            System.out.println("Dados da pessoa: ");
+            System.out.println("Dados da " + (i + 1) + "a pessoa: ");
 
             System.out.print("Nome: ");
             nomes[i] = sc.next();
@@ -51,7 +51,7 @@ public class Exercicio32 {
         }
 
         // Calculando porcentagem de menores;
-        double porcentagem = ((double)menores / n) * 100.0;
+        double porcentagem = menores * 100.0 / n;
 
         System.out.println();
 
@@ -62,7 +62,7 @@ public class Exercicio32 {
         // Pegando os nomes dos menores;
         for (int i = 0; i < n; i++){
             if(idades[i] < 16){
-                System.out.printf("%s\n", nomes[i]);
+                System.out.println(nomes[i]);
                 // %s significa uma string;
             }
         }
