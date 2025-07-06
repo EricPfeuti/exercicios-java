@@ -11,12 +11,14 @@ public class Exercicio35 {
         Scanner sc = new Scanner(System.in);
 
         Rent[] vect = new Rent[10];
+        // Não existem objetos e todos estão nulos
 
         System.out.print("How many rooms will be rented? ");
         int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
             System.out.println();
+
             System.out.println("Rent #" + (i + 1));
             sc.nextLine();
 
@@ -30,13 +32,14 @@ public class Exercicio35 {
             int room = sc.nextInt();
 
             vect[room] = new Rent(name, email);
+            // Instaciando um objeto e atribuindo a referência dele para o vetor na posição do room, informada pelo usuário
         }
 
         System.out.println();
         System.out.println("Busy rooms:");
 
         for (int i = 0; i < 10; i++) {
-            if (vect[i] != null) {
+            if (vect[i] != null) { // apenas imprimir quando o vetor na posição for diferente de nulo/vazio
                 System.out.println(i + ": " + vect[i]);
             }
         }
